@@ -38,7 +38,9 @@ const OnboardingPage = () => {
     <div className="h-screen w-screen flex items-center justify-center">
       <Card>
         <CardHeader>
-          <CardTitle>Welcome to <span className="text-primary">Planora</span></CardTitle>
+          <CardTitle>
+            Welcome to <span className="text-primary">Planora</span>
+          </CardTitle>
           <CardDescription>
             We need the following information to set up your profile
           </CardDescription>
@@ -61,7 +63,7 @@ const OnboardingPage = () => {
 
               <div className="flex rounded-md">
                 <span className="inline-flex items-center px-3 rounded-l-md border border-r-0 border-muted bg-muted text-muted-foreground text-sm">
-                  planora.com/
+                  planora-xi.vercel.app/
                 </span>
                 <Input
                   type="text"
