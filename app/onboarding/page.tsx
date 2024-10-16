@@ -62,7 +62,7 @@ const OnboardingPage = () => {
               <Label>Username</Label>
 
               <div className="flex rounded-md">
-                <span className="inline-flex items-center px-3 rounded-l-md border border-r-0 border-muted bg-muted text-muted-foreground text-sm">
+                <span className="inline-flex whitespace-nowrap items-center px-3 rounded-l-md border border-r-0 border-muted bg-muted text-muted-foreground text-sm">
                   planora-xi.vercel.app/
                 </span>
                 <Input
